@@ -21,6 +21,8 @@ a_0 = 1/2L * integral of f(x)dx over -L to L.
 a_i = 1/L * integral of f(x)*cos(ix*Pi/L)dx over -L to L.
 b_i = 1/L * integral of f(x)*sin(ix*Pi/L)dx over -L to L.
 
+This code uses Riemann integration in all places to find the integral of the function.
+
 This is best used for approximating a periodic function (as shown in class for a periodic square wave),
 but can also be used for an aperiodic function.
 
